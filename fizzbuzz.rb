@@ -5,7 +5,7 @@ if int % 3 == 0
   puts "Fizz"
 elsif int % 5
   puts "Buzz"
-elsif int % 15
+elsif int % 3 || int % 5
   puts "FizzBuzz"
 else
   puts "nil"
